@@ -1,0 +1,117 @@
+
+
+{
+    "homeheader": {
+        "speciality" : "Chuyên khoa",
+        "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility":"Cơ sở y tế",
+        "select-room":"Chọn bệnh viện phòng khám",
+        "doctor":"Bác sĩ",
+        "select-doctor":"Chọn bác sĩ giỏi",
+        "fee":"Gói khám",
+        "check-health":"Khám sức khỏe tổng quát",
+        "support":"Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "banner":{
+        "title1":"NỀN TẢNG Y TẾ",
+        "title2":"CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "paragraph1": "Bác sĩ của DoctorCare luôn sẵn sàng tư vấn và chăm sóc sức khỏe cho bạn mọi lúc mọi nơi qua video & chat",
+        "paragraph2":"Dễ dàng kết nối với các bác sĩ ưu tú, tận tâm, có chuyên môn cao đến từ các bệnh viện tuyến trung ương & phòng khám uy tín",
+        "paragraph3":"Đặt khám hẹn trước tại các bệnh viện trung ương, phòng khám hàng đầu cùng nhiều đặc quyền dành riêng cho bạn và gia đình",
+        "paragraph4":"Không những vậy còn giúp bạn tiết kiệm thời gian và các chi phí phát sinh khác"
+    },
+    "about": {
+        "paragraph5": "Với sứ mệnh mang đến giải pháp chăm sóc sức khoẻ tối ưu bằng sự tích hợp giữa điều trị, nghiên cứu và đào tạo, Bệnh viện luôn nỗ lực phát huy những giá trị cốt lõi bền vững: Tiên phong - Thấu hiểu - Chuẩn mực - An toàn.",
+        "paragraph6": "Hãy đăng ký để tiếp cận ngay các kênh truyền thông giáo dục sức khoẻ chính thống của những cơ sở y tín tại DoctorCare"
+    },
+    "menu": {
+        
+        "admin": {
+            "manage-user": "Quản lý người dùng",
+            "manage-doctor": "Quản lý thông tin bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "Quản lý tài khoản",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "pasword": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "image": "Ảnh đại diện",
+        "save": "Lưu người dùng",
+        "edit": "Lưu thay đổi"
+    },
+    "homepage":{
+        "out-standing-doctor":"Danh sách bác sĩ"
+    },
+    "manage-schedule":{
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose-doctor": "Chọn bác sĩ",
+        "choose-date": "Chọn ngày",
+        "save":"Lưu thông tin"
+    },
+    "patient":{
+        "detail-doctor":{
+            "schedule": "Lịch khám",
+            "no-schedule": "Bác sĩ không có lịch hẹn trong thời gian này, vui lòng chọn ngày khác nhé! ",
+            "choose":"Chọn",
+            "book-free": "và đặt(miễn phí)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Địa chỉ khám",
+            "price": "Giá khám:",
+            "detail": "Xem chi tiết",
+            "payment": "Người bệnh có thể thanh toán chi phí bằng hình thức:",
+            "hide-price": "Ẩn bảng giá"
+        },
+        "booking-modal":{
+            "title": "Thông tin đặt lịch khám bệnh",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên lạc",
+            "reason":"Lý do khám",
+            "birthday": "Ngày sinh",
+            "gender": "Giới tính",
+            "btnConfirm":"Xác nhận",
+            "btnCancel":"Hủy",
+            "priceBooking":"Miễn phí đặt lịch",
+            "price":"Giá khám:"
+        }
+    },
+    "admin":{
+        "manage-doctor":{
+            "title": "Tạo thêm thông tin doctors",
+            "select-doctor": "Chọn bác sĩ",
+            "intro": "Thông tin giới thiệu",
+            "add": "Tạo thông tin",
+            "save": "Lưu thông tin",
+            "price": "Giá khám bệnh",
+            "payment": "Phương thức thanh toán",
+            "province": "Tỉnh thành",
+            "nameClinic": "Tên phòng khám",
+            "addressClinic": "Địa chỉ phòng khám",
+            "note": "Ghi chú",
+            "add-doctor": "Thêm thông tin Bác sĩ"
+        }
+    }
+}

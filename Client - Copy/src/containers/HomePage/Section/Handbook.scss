@@ -1,0 +1,16 @@
+.handbook-child {
+    cursor: pointer;
+    text-align: center;
+    .handbook-name {
+      padding: 10px 0;
+      &:hover {
+        color: #45c3d2;
+      }
+    }
+    .section-handbook {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

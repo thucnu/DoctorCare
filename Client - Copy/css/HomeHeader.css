@@ -1,0 +1,162 @@
+.home-header-container {
+  height: 60px;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+.home-header-container .home-header-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.home-header-container .home-header-content .left-content {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.home-header-container .home-header-content .left-content .header-logo {
+  background: url(../../assets/Logo.svg) center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.home-header-container .home-header-content .left-content i {
+  font-size: 25px;
+  color: grey;
+  cursor: pointer;
+}
+.home-header-container .home-header-content .center-content {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-header-container .home-header-content .center-content .child-content subs-title {
+  font-weight: 400;
+  font-size: 12px;
+  padding: 5px;
+}
+.home-header-container .home-header-content .right-content {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-header-container .home-header-content .right-content .support {
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  color: darkgray;
+  cursor: pointer;
+}
+.home-header-container .home-header-content .right-content .support i {
+  font-size: 15px;
+  color: darkgray;
+  margin-right: 5px;
+}
+.home-header-container .home-header-content .right-content .language-vi {
+  cursor: pointer;
+  opacity: 0.2;
+}
+.home-header-container .home-header-content .right-content .language-vi.active {
+  opacity: 1;
+}
+.home-header-container .home-header-content .right-content .language-vi.active span {
+  color: orange;
+}
+.home-header-container .home-header-content .right-content .language-vi:hover {
+  opacity: 1;
+}
+.home-header-container .home-header-content .right-content .language-en {
+  margin: 0 10px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+.home-header-container .home-header-content .right-content .language-en.active {
+  opacity: 1;
+}
+.home-header-container .home-header-content .right-content .language-en.active span {
+  color: blue;
+}
+.home-header-container .home-header-content .right-content .language-en:hover {
+  opacity: 1;
+}
+
+.home-header-banner {
+  height: 485px;
+  display: flex;
+  box-shadow: 5px 5px 5px 5px darkgray;
+}
+.home-header-banner .content-left {
+  height: 50%;
+  width: 50%;
+  padding-top: 15px;
+}
+.home-header-banner .content-left .title1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #333;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: black;
+}
+.home-header-banner .content-left .title2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #333;
+  color: black;
+  margin-bottom: 15px;
+}
+.home-header-banner .content-left .search {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  background: #ffd51e;
+}
+.home-header-banner .content-left .search i {
+  margin: 0 5px;
+}
+.home-header-banner .content-left .search input {
+  height: 30px;
+  width: 350px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.home-header-banner .content-left .text {
+  text-align: inherit;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.home-header-banner .content-left .text i {
+  color: #1d85c5;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 5px;
+}
+.home-header-banner .content-right {
+  background: url(../../assets/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+  margin-top: auto;
+  border: hidden;
+  border-top-left-radius: 10px;
+}/*# sourceMappingURL=HomeHeader.css.map */
